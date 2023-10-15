@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blog_component_blog_components",
+  "info": {
+    "displayName": "BlogComponent",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "section": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "email"
+    },
+    "releasedAt": {
+      "type": "datetime"
+    },
+    "headerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

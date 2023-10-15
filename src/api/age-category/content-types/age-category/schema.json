@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "age_categories",
+  "info": {
+    "singularName": "age-category",
+    "pluralName": "age-categories",
+    "displayName": "ageCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer",
+      "max": 80,
+      "min": 12,
+      "required": false
+    }
+  }
+}
